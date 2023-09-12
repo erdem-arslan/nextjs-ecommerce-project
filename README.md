@@ -1,8 +1,8 @@
 `*** Not yet Completed`
 
-##Hello this is an E-Commerce website made with [Next.js](https://nextjs.org/)
+## Hello this is an E-Commerce website made with [Next.js](https://nextjs.org/)
 
-####[Look at the Demo](https://nextjs-ecommerce-project-theta.vercel.app/)
+#### [Look at the Demo](https://nextjs-ecommerce-project-theta.vercel.app/)
 
 ## Getting Started
 

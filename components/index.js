@@ -1,6 +1,7 @@
 export { default as Navbar } from '@/components/section/navbar'
 export { default as Sidebar } from '@/components/section/sidebar'
 export { default as Container } from '@/components/elements/container'
+export { default as Spinner } from '@/components/elements/spinner'
 export { default as Checkbox } from '@/components/form/checkbox'
 export { default as Costum } from '@/components/section/custom'
 export { default as Content } from '@/components/section/content'

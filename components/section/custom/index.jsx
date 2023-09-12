@@ -21,7 +21,7 @@ function Index()
 
     return (
         <div>
-            <div className='flex justify-end border-b pb-2 mb-3'>
+            <div className='flex justify-start lg:justify-end border-b pb-2 mb-3'>
                 <div onClick={() => orderOpen("hidden")} className='w-1/6 items-center flex flex-col'>
                     <div className='flex justify-evenly w-full items-center opacity-80 p-2 rounded cursor-pointer'>
                         <p className='text-xl font-semibold  '>Sırala</p>
@@ -39,11 +39,13 @@ function Index()
                         </div>
                     </div>
                 </div>
-                <div className='ml-5 flex justify-end p-2'>
-                    <TfiLayoutGrid2Alt size={30} className={`cursor-pointer ${layout == 2 ? 'opacity-100' : 'opacity-20'}`} onClick={() => changeLayout(2)}
-                    />
-                    <TfiLayoutGrid3Alt size={30} className={`ml-2 cursor-pointer ${layout == 3 ? 'opacity-100' : 'opacity-20'}`} onClick={() => changeLayout(3)}
-                    />
+                <div className='hidden lg:block'>
+                    <div className=' ml-5 flex justify-end p-2'>
+                        <TfiLayoutGrid2Alt size={30} className={`cursor-pointer ${layout == 2 ? 'opacity-100' : 'opacity-20'}`} onClick={() => changeLayout(2)}
+                        />
+                        <TfiLayoutGrid3Alt size={30} className={`ml-2 cursor-pointer ${layout == 3 ? 'opacity-100' : 'opacity-20'}`} onClick={() => changeLayout(3)}
+                        />
+                    </div>
                 </div>
             </div>
         </div>

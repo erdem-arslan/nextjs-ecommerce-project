@@ -245,7 +245,7 @@ const Products = [
             {
                 id: 0,
                 name: "Midnight",
-                color: "#ff0000",
+                color: "#161d26",
                 image: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-se-finish-select-202207-midnight?wid=5120&hei=2880&fmt=p-jpg&qlt=80&.v=1655316263296"
             },
             {

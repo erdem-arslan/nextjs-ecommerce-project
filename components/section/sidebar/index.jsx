@@ -29,7 +29,7 @@ function Index()
                         <h1 className={`text-xl font-medium opacity-90 ${isSeriesVisible ? 'underline transition' : 'no-underline'}`}>Series</h1>
                         <MdKeyboardArrowRight size={25} className={`opacity-50 ${isSeriesVisible ? ' rotate-90 transition' : 'transition'} `} />
                     </div>
-                    <div className={`px-5 ${isSeriesVisible ? 'block' : 'hidden'}`}>
+                    <div className={`px-5 ${isSeriesVisible ? ' lg:block' : 'hidden'}`}>
                         <Checkbox id='i-14-p' name='i-14-p' label='iPhone 14 Pro' />
                         <Checkbox id='i-14' name='i-14' label='iPhone 14' />
                         <Checkbox id='i-13' name='i-13' label='iPhone 13' />

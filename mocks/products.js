@@ -30,25 +30,25 @@ const Products = [
             {
                 id: 0,
                 name: "Deep Purple",
-                color: "#ccc",
+                color: "#75697b",
                 image: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-14-pro-finish-select-202209-6-1inch-deeppurple?wid=5120&hei=2880&fmt=p-jpg&qlt=80&.v=1663703840578"
             },
             {
                 id: 1,
                 name: "Gold",
-                color: "#000",
+                color: "#f4e7cb",
                 image: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-14-pro-finish-select-202209-6-1inch-gold?wid=5120&hei=2880&fmt=p-jpg&qlt=80&.v=1663703840519"
             },
             {
                 id: 2,
                 name: "Silver",
-                color: "#ededed",
+                color: "#eceeee",
                 image: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-14-pro-finish-select-202209-6-1inch-silver?wid=5120&hei=2880&fmt=p-jpg&qlt=80&.v=1663703840488"
             },
             {
                 id: 3,
                 name: "Space Black",
-                color: "#4e4d4b",
+                color: "#514f4b",
                 image: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-14-pro-storage-select-202209-6-1inch-spaceblack?wid=5120&hei=2880&fmt=p-jpg&qlt=80&.v=1663790290240"
             }
         ]

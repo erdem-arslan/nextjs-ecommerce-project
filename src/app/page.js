@@ -17,9 +17,9 @@ export default function Home()
               <Costum />
             </div>
             <div>
-              <div className={`w-full grid ${layout === 3 ? 'grid-cols-3' : 'grid-cols-2'}  gap-5`}>
+              <div className={`w-full grid ${layout === 3 ? 'grid-cols-3' : 'grid-cols-2'}  gap-5 px-3`}>
                 {
-                  Products.map((item, index) => <Card name="iPhone 14 Pro" price="1.099" tag={item.slug} data={item} key={index} />)
+                  Products.map((item, index) => <Card tag={item.slug} data={item} key={index} />)
                 }
               </div>
             </div>

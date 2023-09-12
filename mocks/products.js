@@ -2,13 +2,13 @@ const Products = [
     {
         id: "0",
         name: "iPhone 14 Pro",
-        slug: "iphone-14-pro",
+        slug: "i-14-p",
         order: 72,
         stock: 89,
         status: false,
         price: 999,
         series: "14 Pro",
-        ram: 16,
+        ram: "16gb",
         memory: [
             {
                 id: 0,
@@ -57,13 +57,13 @@ const Products = [
     {
         id: "1",
         name: "iPhone 14 ",
-        slug: "iphone-14",
+        slug: "i-14",
         order: 61,
         stock: 16,
         status: false,
         price: 799,
         series: "14",
-        ram: 8,
+        ram: "8gb",
         memory: [
             {
                 id: 0,
@@ -112,13 +112,13 @@ const Products = [
     {
         id: "2",
         name: "iPhone 13",
-        slug: "iphone-13",
+        slug: "i-13",
         order: 55,
         stock: 90,
         status: false,
         price: 699,
         series: "13",
-        ram: 8,
+        ram: "8gb",
         memory: [
             {
                 id: 0,
@@ -167,13 +167,13 @@ const Products = [
     {
         id: "3",
         name: "iPhone 12",
-        slug: "iphone-12",
+        slug: "i-12",
         order: 40,
         stock: 14,
         status: false,
         price: 599,
         series: "12",
-        ram: 4,
+        ram: "4gb",
         memory: [
             {
                 id: 0,
@@ -217,13 +217,13 @@ const Products = [
     {
         id: "3",
         name: "iPhone SE",
-        slug: "iphone-se",
+        slug: "i-se",
         order: 30,
         stock: 91,
         status: false,
         price: 429,
         series: "SE",
-        ram: 4,
+        ram: "4gb",
         memory: [
             {
                 id: 0,

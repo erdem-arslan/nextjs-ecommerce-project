@@ -30,10 +30,10 @@ function Index()
                         <MdKeyboardArrowRight size={25} className={`opacity-50 ${isSeriesVisible ? ' rotate-90 transition' : 'transition'} `} />
                     </div>
                     <div className={`px-5 ${isSeriesVisible ? ' lg:block' : 'hidden'}`}>
+                        <Checkbox id='i-15-p' name='i-15-p' label='iPhone 15 Pro' />
                         <Checkbox id='i-14-p' name='i-14-p' label='iPhone 14 Pro' />
                         <Checkbox id='i-14' name='i-14' label='iPhone 14' />
                         <Checkbox id='i-13' name='i-13' label='iPhone 13' />
-                        <Checkbox id='i-12' name='i-12' label='iPhone 12' />
                         <Checkbox id='i-se' name='i-se' label='iPhone SE' />
                     </div>
                 </div>

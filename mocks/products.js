@@ -1,13 +1,13 @@
 const Products = [
     {
         id: "0",
-        name: "iPhone 14 Pro",
-        slug: "i-14-p",
-        order: 72,
-        stock: 89,
+        name: "iPhone 15 Pro",
+        slug: "i-15-p",
+        order: 100,
+        stock: 100,
         status: false,
         price: 999,
-        series: "14 Pro",
+        series: "15",
         ram: "16gb",
         memory: [
             {
@@ -29,33 +29,89 @@ const Products = [
         colors: [
             {
                 id: 0,
-                name: "Deep Purple",
-                color: "#75697b",
-                image: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-14-pro-finish-select-202209-6-1inch-deeppurple?wid=5120&hei=2880&fmt=p-jpg&qlt=80&.v=1663703840578"
+                name: "Natural Titanium",
+                color: "#bbb5a9",
+                image: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-15-pro-finish-select-202309-6-1inch-naturaltitanium?wid=2560&hei=1440&fmt=p-jpg&qlt=80&.v=1692846363993"
             },
             {
                 id: 1,
-                name: "Gold",
-                color: "#f4e7cb",
-                image: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-14-pro-finish-select-202209-6-1inch-gold?wid=5120&hei=2880&fmt=p-jpg&qlt=80&.v=1663703840519"
+                name: "Blue Titanium",
+                color: "#4a5161",
+                image: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium?wid=2560&hei=1440&fmt=p-jpg&qlt=80&.v=1692846360609"
             },
             {
                 id: 2,
-                name: "Silver",
-                color: "#eceeee",
-                image: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-14-pro-finish-select-202209-6-1inch-silver?wid=5120&hei=2880&fmt=p-jpg&qlt=80&.v=1663703840488"
+                name: "White Titanium",
+                color: "#f3f2ed",
+                image: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-15-pro-finish-select-202309-6-1inch-whitetitanium?wid=2560&hei=1440&fmt=p-jpg&qlt=80&.v=1692846367180"
             },
             {
                 id: 3,
-                name: "Space Black",
-                color: "#514f4b",
-                image: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-14-pro-storage-select-202209-6-1inch-spaceblack?wid=5120&hei=2880&fmt=p-jpg&qlt=80&.v=1663790290240"
-            }
+                name: "Black Titanium",
+                color: "#4a4b4d",
+                image: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-15-pro-finish-select-202309-6-1inch-blacktitanium?wid=5120&hei=2880&fmt=p-jpg&qlt=80&.v=1692846357018"
+            },
+
         ]
 
     },
     {
         id: "1",
+        name: "iPhone 15",
+        slug: "i-15",
+        order: 72,
+        stock: 89,
+        status: false,
+        price: 999,
+        series: "15",
+        ram: "16gb",
+        memory: [
+            {
+                id: 0,
+                gb: 128,
+                price: 799
+            },
+            {
+                id: 1,
+                gb: 256,
+                price: 899
+            },
+            {
+                id: 2,
+                gb: 512,
+                price: 1099
+            }
+        ],
+        colors: [
+            {
+                id: 0,
+                name: "Blue",
+                color: "#d5dde0",
+                image: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-15-finish-select-202309-6-1inch-blue?wid=5120&hei=2880&fmt=p-jpg&qlt=80&.v=1692923777972"
+            },
+            {
+                id: 1,
+                name: "Pink",
+                color: "#ecd6d8",
+                image: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-15-finish-select-202309-6-1inch-pink?wid=5120&hei=2880&fmt=p-jpg&qlt=80&.v=1692923780378"
+            },
+            {
+                id: 2,
+                name: "Yellow",
+                color: "#ede8ca",
+                image: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-15-finish-select-202309-6-1inch-yellow?wid=5120&hei=2880&fmt=p-jpg&qlt=80&.v=1692923780785"
+            },
+            {
+                id: 3,
+                name: "Green",
+                color: "#d1dacb",
+                image: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-15-finish-select-202309-6-1inch-green?wid=5120&hei=2880&fmt=p-jpg&qlt=80&.v=1692923780268"
+            }
+        ]
+
+    },
+    {
+        id: "2",
         name: "iPhone 14 ",
         slug: "i-14",
         order: 61,
@@ -110,7 +166,7 @@ const Products = [
 
     },
     {
-        id: "2",
+        id: "3",
         name: "iPhone 13",
         slug: "i-13",
         order: 55,
@@ -165,57 +221,7 @@ const Products = [
 
     },
     {
-        id: "3",
-        name: "iPhone 12",
-        slug: "i-12",
-        order: 40,
-        stock: 14,
-        status: false,
-        price: 599,
-        series: "12",
-        ram: "4gb",
-        memory: [
-            {
-                id: 0,
-                gb: 64,
-                price: 599
-            },
-            {
-                id: 1,
-                gb: 128,
-                price: 649
-            },
-            {
-                id: 2,
-                gb: 256,
-                price: 749
-            }
-        ],
-        colors: [
-            {
-                id: 0,
-                name: "Blue",
-                color: "#11476d",
-                image: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-12-finish-select-202207-blue?wid=5120&hei=2880&fmt=p-jpg&qlt=80&.v=1662149977576"
-            },
-            {
-                id: 1,
-                name: "Purple",
-                color: "#c0b8e9",
-                image: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-12-finish-select-202207-purple?wid=5120&hei=2880&fmt=p-jpg&qlt=80&.v=1662150036753"
-            },
-            {
-                id: 2,
-                name: "Black",
-                color: "#2b2831",
-                image: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-12-finish-select-202207-black?wid=5120&hei=2880&fmt=p-jpg&qlt=80&.v=1662149951953"
-            },
-
-        ]
-
-    },
-    {
-        id: "3",
+        id: "4",
         name: "iPhone SE",
         slug: "i-se",
         order: 30,

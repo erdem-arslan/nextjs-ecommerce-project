@@ -76,7 +76,7 @@ function Index({ data })
                     </div>
                 ) : (
                     <h3 className='text-center text-2xl font-bold mt-2 opacity-70'>
-                        {data.memory[selectedMemoryIndex].price} $
+                        ${data.memory[selectedMemoryIndex].price}
                     </h3>
                 )}
             </div>

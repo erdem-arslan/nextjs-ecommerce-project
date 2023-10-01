@@ -30,6 +30,7 @@ function Index()
                         <MdKeyboardArrowRight size={25} className={`opacity-50 ${isSeriesVisible ? ' rotate-90 transition' : 'transition'} `} />
                     </div>
                     <div className={`px-5 ${isSeriesVisible ? ' lg:block' : 'hidden'}`}>
+                    <Checkbox id='all-model' name='all-model' label='See All' />
                         <Checkbox id='i-15-p' name='i-15-p' label='iPhone 15 Pro' />
                         <Checkbox id='i-14-p' name='i-14-p' label='iPhone 14 Pro' />
                         <Checkbox id='i-14' name='i-14' label='iPhone 14' />
@@ -45,6 +46,7 @@ function Index()
                         <MdKeyboardArrowRight size={25} className={`opacity-50 ${isRamVisible ? ' rotate-90 transition' : 'transition'} `} />
                     </div>
                     <div className={`px-5 ${isRamVisible ? 'block' : 'hidden'}`}>
+                    <Checkbox id='all-ram' name='all-ram' label='See All' />
                         <Checkbox id='4gb' name='4gb' label='4 GB' />
                         <Checkbox id='8gb' name='8gb' label='8 GB' />
                         <Checkbox id='16gb' name='16gb' label='16 GB' />
